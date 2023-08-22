@@ -1,0 +1,109 @@
+#header {
+  background-color: #5EBFB1;
+  height: 100vh;
+  position: relative;
+}
+
+#title {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 166, 141, 0.5);
+  border: 3px #007564 solid;
+  color: #00F2CE;
+  width: 40%;
+  height: 40%;
+  border-radius: 30px;
+  top: 30%;
+  left: 31%;
+  z-index: 1;
+}
+
+#name {
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+}
+
+
+#job {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+
+.mountain_img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 42%;
+  margin-bottom: 5%;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.skills_header {
+  text-align: center;
+  margin: 130px 0;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+.table {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  width: 50%;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(2, 275px);
+}
+
+.pic {
+  width: 250px;
+  height: 250px;
+}
+
+h3 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+}
+
+.text {
+  color: #11999e;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Merriweather", serif;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
